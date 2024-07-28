@@ -1,0 +1,40 @@
+#dropbtn {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+}
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#bunty {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 175px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+#bunty a {
+    color: black;
+    padding: 10px 8px;
+    text-decoration: none;
+    display: block;
+}
+
+#bunty a:hover {
+    background-color: blueviolet;
+}
+
+#dropdown:hover #bunty {
+    display: block;
+}
+
+#dropbtn:hover {
+    background-color: blueviolet;
+} 
